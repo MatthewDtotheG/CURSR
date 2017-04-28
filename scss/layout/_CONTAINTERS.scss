@@ -1,0 +1,19 @@
+
+#MAIN_WRAP {
+	@include outer-container(85%);
+	background-color: white;
+}
+
+#WRAP {
+	@include outer-container(100%);
+	
+	
+}
+
+
+
+.BREAK {
+  margin-bottom: 250px;
+  z-index: 900000;
+  @include span-columns(10);
+}

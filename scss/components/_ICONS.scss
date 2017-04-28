@@ -1,0 +1,56 @@
+/* ICONS */
+
+
+
+
+
+
+
+
+
+
+
+/* LOGO ===========================
+.LOGO1 {
+    margin-top: 35px;
+    height: 74px;
+    width: 120px;
+    transition: all ease .5s;
+  }
+
+.LOGO1:hover {
+    opacity: .5;
+}
+  
+
+
+  .LOGOFOOTER {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    display: block;
+  }
+  
+
+.NAME {
+
+  @media #{$brk-narrow}{
+    height: 143px;
+    width: 480px; }
+
+   @media #{$brk-small} {
+    height: 102px;
+    width: 340px;
+  }
+
+  @media #{$brk-xsmall} {
+    height: 102px;
+    width: 300px;
+  }   
+}
+
+
+
+
+
+/* LOGO END =========================== */
