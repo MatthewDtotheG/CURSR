@@ -1,99 +1,72 @@
 
 
-/* The wrapper for each item */
-.rig-cell {
-  display: block;
-  position: relative;
-  overflow: hidden;
-
-
+.container {
+    position: relative;
+    width: 100%;
+    background-color: black;
 }
 
-/* If have the image layer */
-.rig-img {
+.image {
+  opacity: 1;
   display: block;
   width: 100%;
   height: auto;
-  border: none;
-  transform: scale(1);
-  transition: all 1s; }
-
-.rig a:hover .rig-img {
-  transform: scale(1.05);
-  
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-/* GRAYS OUT THE IMAGE */
-.rig-overlay {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  
-  background: #151515 no-repeat center 20%;
-  background-size: 50px 50px;
+.middle {
+  transition: .5s ease;
   opacity: 0;
-  filter: alpha(opacity=0);
-  /*For IE6 - IE8*/
-  transition: all 0.6s;
-   }
-
-.rig a:hover .rig-overlay {
-  opacity: 0.5;
-
-  }
-
-/* PULLS IN THE TEXT / ICON */
-.rig-text {
-  display: block;
-  padding: 0px;
-  box-sizing: border-box;
   position: absolute;
-  left: 0;
-  width: 100%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+  zoom: 50%;
+
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text1 {
+  font-size: 25px;
+  color: #f5b1a8;
+  transition: transform 1s;
   text-align: center;
-  text-transform: capitalize;
-  font-size: 45px;
-  font-weight: bold;
-  font-family: $stack-muli;
-  font-weight: normal !important;
-  top: 40%;
-  color: white;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  /*For older IE*/
-  transform: translateY(-20px);
-  transition: all .3s; 
-
-  @media #{$brk-wide} {
-    font-size: 45px;
-  }
-
-  @media #{$brk-narrow} {
-    font-size: 30px;
-    padding: 10px;
-    top: 40%;
-    background: rgba(black, 0.4)
-  }
-
-   @media #{$brk-small} {
-    top: 35%;
-    padding: 15px;
-    font-size: 25px;
-    background: rgba(black, 0.4);
-    
-  }
-
-   @media #{$brk-xsmall} {
-    font-size: 25px;
-  }
-
 }
 
-.rig a:hover .rig-text {
-  transform: translateY(0px);
-  opacity: 0.9;
- 
- }
+.text {
+  color: $color-pink;
+  font-size: 33px;
+  font-weight: bold;
+  transition: transform 0.5s;
+  text-align: center;
+  padding-bottom: 30px;
+
+    hr {
+    background-color: $color-pink;
+    margin-top: 20px;
+    padding: 0.5px;
+  }
+}
+
+.container:hover .text1{
+   transform: translateY(-60px);
+   
+  }
+
+ .container:hover .text{
+   transform: translateY(-50px);
+   
+  }
+
+
+
+

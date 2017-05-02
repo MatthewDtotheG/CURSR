@@ -47,31 +47,29 @@ $(document).ready(function(){
 // NAV  +===========================
 
 
+for (i = 0; i < 50; i++) {
+  var cloneHtml = $('#LIST_WRAP').clone();
+
+  cloneHtml.appendTo('.CURSR_WRAP');
+}
 
 
 
 
 var fooReveal = {
-  origin : 'left',
-  delay    : 100,
-  distance : '500px',
-  easing   : 'ease-in-out',
+  origin : 'bottom',
+  delay    : 500,
+  distance : '100px',
+  easing   : 'ease',
   
 };
 
-var booReveal = {
-  origin : 'right',
-  delay    : 600,
-  distance : '500px',
-  easing   : 'ease-in-out',
-  
-};
 
 
 var box0 = {
   origin : 'left',
-  delay    : 500,
-  distance : '500px',
+  delay    : 200,
+  distance : '100px',
   easing   : 'ease-in-out',
   
 };
@@ -79,16 +77,16 @@ var box0 = {
 
 var box1 = {
   origin : 'right',
-  delay    : 500,
-  distance : '500px',
+  delay    : 200,
+  distance : '100px',
   easing   : 'ease-in-out',
   
 };
 
 var box2 = {
   origin : 'bottom',
-  delay    : 700,
-  distance : '300px',
+  delay    : 200,
+  distance : '100px',
   easing   : 'ease-in-out',
 };
 
@@ -99,8 +97,7 @@ var box2 = {
 
 window.sr = ScrollReveal();
 sr.reveal('.CURSR', { duration: 1500 }, 80);
-sr.reveal('.title0', fooReveal);
-sr.reveal('.title1', booReveal);
+sr.reveal('.foo', fooReveal);
 sr.reveal('.box0', box0);
 sr.reveal('.box1', box1);
 sr.reveal('.box2', box2);

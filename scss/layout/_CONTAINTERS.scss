@@ -1,19 +1,18 @@
 
 #MAIN_WRAP {
-	@include outer-container(85%);
+	@include outer-container(100%);
 	background-color: white;
+	z-index: 900;
 }
 
 #WRAP {
 	@include outer-container(100%);
-	
-	
 }
 
 
 
 .BREAK {
-  margin-bottom: 250px;
+  margin-bottom: 200px;
   z-index: 900000;
   @include span-columns(10);
 }

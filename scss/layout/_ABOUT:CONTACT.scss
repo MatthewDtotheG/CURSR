@@ -1,0 +1,39 @@
+
+.ABOUT {
+  font-size: 30px;
+  @include span-columns(12);
+  text-align: left;
+  padding: 0px 10%;
+  z-index: 900;
+  line-height: 50px;
+  font-weight: bold;
+
+  ul {
+    padding: 20px;
+    padding-left: 70px;
+  }
+
+  div {
+    padding: 20px;
+
+    padding-left: 0px;
+  }
+}
+
+.FORM1 {
+      font-size: 30px;
+}
+
+.SEND {
+  background-color: $color-pink;
+  color: black;
+  transition: .5s ease;
+  border: 1px solid black;
+}
+
+.SEND:hover {
+  background-color: black;
+  color: #f5b1a8;
+  
+}
+
