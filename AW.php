@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title> CURSR - Momma's Boy </title>
+    <title> CURSR - Andy Wolff </title>
 
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
@@ -17,7 +17,7 @@
   <div class="foo">
 
   <h1 class="title">
-    MOMMAS BOY
+    ANDY WOLFF
   </h1>
 
   <p>
@@ -44,12 +44,12 @@
 <div id="MAIN_WRAP">
 
   <a class="box0">
-        <img class="image" src="img/MB0.png">
+        <img class="image" src="img/AW1.png">
   </a>
 
 
   <a class="box1">
-        <img class="image" src="img/MB1.png">
+        <img class="image" src="img/AW0.png">
   </a>
 
 </div>
@@ -97,12 +97,12 @@
 <div id="MAIN_WRAP">
 
   <a class="box0">
-        <img class="image" src="img/MB3.png">
+        <img class="image" src="img/AW2.png">
   </a>
 
 
   <a class="box1">
-        <img class="image" src="img/MB4.png">
+        <img class="image" src="img/AW5.png">
   </a>
 
 </div>

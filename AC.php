@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title> CURSR - Momma's Boy </title>
+    <title> CURSR - Andy Corbett Art </title>
 
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
@@ -17,7 +17,7 @@
   <div class="foo">
 
   <h1 class="title">
-    MOMMAS BOY
+    ANDY CORBET ART
   </h1>
 
   <p>
@@ -44,12 +44,12 @@
 <div id="MAIN_WRAP">
 
   <a class="box0">
-        <img class="image" src="img/MB0.png">
+        <img class="image" src="img/AC3.png">
   </a>
 
 
   <a class="box1">
-        <img class="image" src="img/MB1.png">
+        <img class="image" src="img/AC4.png">
   </a>
 
 </div>
@@ -97,12 +97,12 @@
 <div id="MAIN_WRAP">
 
   <a class="box0">
-        <img class="image" src="img/MB3.png">
+        <img class="image" src="img/AC0.png">
   </a>
 
 
   <a class="box1">
-        <img class="image" src="img/MB4.png">
+        <img class="image" src="img/AC2.png">
   </a>
 
 </div>

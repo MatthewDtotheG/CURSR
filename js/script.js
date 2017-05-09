@@ -54,8 +54,6 @@ for (i = 0; i < 50; i++) {
 }
 
 
-
-
 var fooReveal = {
   origin : 'bottom',
   delay    : 500,
@@ -101,6 +99,8 @@ sr.reveal('.foo', fooReveal);
 sr.reveal('.box0', box0);
 sr.reveal('.box1', box1);
 sr.reveal('.box2', box2);
+
+
 
 
 

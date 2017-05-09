@@ -54,8 +54,7 @@ hr {
 
 
 .title {
-  font-size: 30px;
-  @include span-columns(12);
+  font-size: 35px;
   text-align: center;
   padding: 0px 15%;
   z-index: 900;
@@ -63,7 +62,27 @@ hr {
 }
 
 
+p {
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 15%;
+  z-index: 900;
+  line-height: 50px;
+  font-weight: bold;
+}
 
+
+.TITLE_WIDTH {
+   @include span-columns(6);
+   padding: 0px;
+}
+
+.P_WIDTH {
+  @include span-columns(6);
+  text-align: left;
+  padding: 0px;
+  padding-right: 50px;
+}
 
 
 
@@ -77,18 +96,18 @@ h2 {
 
 .box0 {
    @include span-columns(6 of 12, table);
+  
 }
 
 .box1 {
    @include span-columns(6 of 12, table);
-
 }
-
 
 
 .box2 {
   @include span-columns(12);
   overflow: hidden;
+
 }
 
 

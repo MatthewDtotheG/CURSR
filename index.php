@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title> - </title>
+    <title> /CURSR </title>
 
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
@@ -46,7 +46,7 @@
 
 
   
-<iv id="MAIN_WRAP">
+<div id="MAIN_WRAP">
 
 
   <a class="box0" href="MB.php">
@@ -63,7 +63,7 @@
   </a>
 
 
-  <a class="box1" href="MB.php">
+  <a class="box1" href="AC.php">
    <div class="container">
         <img class="image" src="img/ACGR.png">
         <div class="middle">
@@ -76,17 +76,16 @@
     </div>
 
   </a>
-</div>
 
 
 
-<div id="MAIN_WRAP">
+  <a class="box2" href="AW.php">
 
-  <a class="box2">
-    <div class="container">
-      <video autoplay loop muted class="image">  
+    <div class="container"> 
+      <video autoplay loop muted class="image">
           <source src="img/AW.mp4" type="video/mp4"/>
       </video>
+
       <div class="middle">
           <div class="text">ANDY WOLFF
             <hr>
@@ -96,6 +95,7 @@
           </div>
       </div>
     </div>
+    
   </a>
 
 </div>
@@ -129,12 +129,27 @@
         _ User Research
         </li>
       </ul>
-
-    Want to make the competition curse? 
   </div>
 
 </div>
  
+
+</div>
+
+<div id="MAIN_WRAP">
+
+<div class="BREAK"></div>
+
+
+  <div class="foo">
+    <h1 class="title">
+    What to make the competition curse?
+    </h1>
+
+    <h1 class="title">
+    Contact us / 816-237-0512 / cursrco@gmail.com
+    </h1>
+  </div>
 
 </div>
 
@@ -149,7 +164,7 @@
   <div class="ABOUT foo">
 
   <div>
-  CONTACT US
+  MESSAGE DIRECTLY
   </div>
 
   <form id="ajax-contact" method="post" action="mailer.php">
