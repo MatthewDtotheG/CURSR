@@ -8,17 +8,30 @@
   line-height: 50px;
   font-weight: bold;
 
-  ul {
-    padding: 20px;
-    padding-left: 70px;
+  img {
+    height: 80px;
+    width: 80px;
   }
+
+  span {
+    color: $color-pink;
+  }
+
+}
+
+.ICON_WRAP {
+  font-size: 25px;
+  margin-top: 150px;
+  text-align: center;
 
   div {
-    padding: 20px;
-
-    padding-left: 0px;
+    @include span-columns(3 of 12);
+    text-align: center;
   }
 }
+
+
+
 
 .FORM1 {
       font-size: 30px;

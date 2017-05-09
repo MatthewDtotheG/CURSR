@@ -12,17 +12,19 @@
 
 <div id="MAIN_WRAP">
 
-<div class="BREAK"></div>
-
   <div class="foo">
 
-  <h1 class="title">
-    ANDY WOLFF
-  </h1>
+    <div class="LOGO">
+          <img src="img/AW_LOGO.png">
+    </div>
 
-  <p>
-    Creating a brand identity and website for Momma’s Boy in conjunction with their debut record release was an exciting experience for all of us -- especially in the intense competitive noise that obscures the indie music market.
-  </p>
+    <h1 class="title">
+      ANDY WOLFF
+    </h1>
+
+    <p>
+      Andy Wolff came to us to create the lynchpin of his career move to the Los Angeles creative scene. Together we set out to create a portfolio site that would stun prospective partners and employers. 
+    </p>
 
   </div>
 
@@ -66,7 +68,7 @@
   </h1>
 
    <p class="P_WIDTH">
-    We custom-built site from the ground up that included a bespoke music player that tracks plays for analytics purposes, a fully customized Twitter API, and a shop preview to help move merch. We also designed album artwork that served as the origin point for the art direction of the site that showcased the DIY, youthful, rough-around the edges attitude of the band’s music.
+    We designed, developed, and deployed a minimal site that showcased Andy’s work front-and-center while remaining elegant and easy to navigate. On the back end, we set up click tracking and and randomization on the video, photo, and resume elements to see which content drove clicks and in what geographic markets, giving Andy a better grasp on how to improve his odds of getting work.
   </p>
 
 </div>
@@ -84,7 +86,8 @@
   </h1>
 
    <p class="P_WIDTH">
-    The site and attached facebook ad campaign increased the band’s reach enough to picked up for rotation by every local radio station, as well as secure a slot at a showcase at SXSW. You can listen or book them here. 
+    Andy is now happily employed with Disney Interactive Studios! You can find his work and partner with him here.
+    
   </p>
 
 </div>
@@ -117,44 +120,38 @@
 <div class="BREAK"></div>
 
 
-  <div class="foo">
-    <h1 class="title">
+  <div>
+    <h1 class="title foo">
     What to make the competition curse?
     </h1>
 
-    <h1 class="title">
-    Contact us / 816-237-0512 / cursrco@gmail.com
+    <h1 class="title foo">
+    Contact us / <a href="tel:816-237-0512">816-237-0512</a> / <a href="mailto:cursrco@gmail.com">cursrco@gmail.com</a>
     </h1>
   </div>
 
 </div>
 
 
-<div class="BREAK"></div>
-
-<hr>
-<div class="BREAK"></div>
+<hr class="foo">
 
 
 <div id="MAIN_WRAP">
 
   <div class="ABOUT foo">
 
-  <div>
-  MESSAGE DIRECTLY
-  </div>
 
   <form id="ajax-contact" method="post" action="mailer.php">
         
         <div class="FORM1">
-          MESSAGE*<br>
+          MESSAGE<span>*</span><br>
           <textarea id="message" name="message" class="MESSAGE" required></textarea><br>
         </div>
         
         <div class="FORM0">
-          NAME*<br>      
+          NAME<span>*</span><br>      
           <input type="text" id="name" name="name" required><br>
-          E-MAIL*
+          E-MAIL<span>*</span>
           <input type="text" id="email" name="email" required><br>
           <input class="SEND" type="submit" value="SEND">
         </div>

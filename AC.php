@@ -12,17 +12,20 @@
 
 <div id="MAIN_WRAP">
 
-<div class="BREAK"></div>
 
   <div class="foo">
 
-  <h1 class="title">
-    ANDY CORBET ART
-  </h1>
+      <div class="LOGO">
+              <img src="img/AC_LOGO.png">
+      </div>
 
-  <p>
-    Creating a brand identity and website for Momma’s Boy in conjunction with their debut record release was an exciting experience for all of us -- especially in the intense competitive noise that obscures the indie music market.
-  </p>
+      <h1 class="title">
+        ANDY CORBET ART
+      </h1>
+
+      <p>
+        Helping visual artists to bring their creations to the web is one of our favorite functions as a digital shop, and working with artist Andy Corbett was no exception. Andy came to us looking for a clean site that would provide an online home for his artwork, allowing him to get more eyes on his craft than ever.
+      </p>
 
   </div>
 
@@ -66,7 +69,7 @@
   </h1>
 
    <p class="P_WIDTH">
-    We custom-built site from the ground up that included a bespoke music player that tracks plays for analytics purposes, a fully customized Twitter API, and a shop preview to help move merch. We also designed album artwork that served as the origin point for the art direction of the site that showcased the DIY, youthful, rough-around the edges attitude of the band’s music.
+    We set out to develop and deploy a sleek, multi-page site that lets Andy’s work do the visual heavy lifting. In addition to creating a dynamic, interactive portfolio space, we helped highlight Andy’s day-to-day creative sparks by integrating the Instagram API with his account. 
   </p>
 
 </div>
@@ -84,7 +87,7 @@
   </h1>
 
    <p class="P_WIDTH">
-    The site and attached facebook ad campaign increased the band’s reach enough to picked up for rotation by every local radio station, as well as secure a slot at a showcase at SXSW. You can listen or book them here. 
+    The site has garnered Andy multiple slots in art shows since launch. What’s more, Andy now has a place to send folks who are interested in learning more about the artist, his work, and his day-to-day creative lifestyle. 
   </p>
 
 </div>
@@ -117,44 +120,38 @@
 <div class="BREAK"></div>
 
 
-  <div class="foo">
-    <h1 class="title">
+  <div>
+    <h1 class="title foo">
     What to make the competition curse?
     </h1>
 
-    <h1 class="title">
-    Contact us / 816-237-0512 / cursrco@gmail.com
+    <h1 class="title foo">
+    Contact us / <a href="tel:816-237-0512">816-237-0512</a> / <a href="mailto:cursrco@gmail.com">cursrco@gmail.com</a>
     </h1>
   </div>
 
 </div>
 
 
-<div class="BREAK"></div>
-
-<hr>
-<div class="BREAK"></div>
+<hr class="foo">
 
 
 <div id="MAIN_WRAP">
 
   <div class="ABOUT foo">
 
-  <div>
-  MESSAGE DIRECTLY
-  </div>
 
   <form id="ajax-contact" method="post" action="mailer.php">
         
         <div class="FORM1">
-          MESSAGE*<br>
+          MESSAGE<span>*</span><br>
           <textarea id="message" name="message" class="MESSAGE" required></textarea><br>
         </div>
         
         <div class="FORM0">
-          NAME*<br>      
+          NAME<span>*</span><br>      
           <input type="text" id="name" name="name" required><br>
-          E-MAIL*
+          E-MAIL<span>*</span>
           <input type="text" id="email" name="email" required><br>
           <input class="SEND" type="submit" value="SEND">
         </div>

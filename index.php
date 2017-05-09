@@ -49,6 +49,28 @@
 <div id="MAIN_WRAP">
 
 
+  <a class="box2" href="AW.php">
+
+    <div class="container"> 
+      <video autoplay loop muted class="image">
+          <source src="img/AW.mp4" type="video/mp4"/>
+      </video>
+
+      <div class="middle">
+          <div class="text">ANDY WOLFF
+            <hr>
+          </div>
+  
+          <div class="text1">WEBSITE + ANALYTICS <br> Videographer 
+          </div>
+      </div>
+    </div>
+    
+  </a>
+</div>
+
+<div id="MAIN_WRAP">
+
   <a class="box0" href="MB.php">
     <div class="container">
         <img class="image" src="img/MBGR.png">
@@ -56,7 +78,7 @@
           <div class="text">MOMMA'S BOY
             <hr>
           </div>
-          <div class="text1">Designed and built band promotion website.</div>
+          <div class="text1">WEBSITE + STRATEGY <br> Surf-rock Band</div>
         </div>
     </div>
 
@@ -70,33 +92,13 @@
           <div class="text">ANDY CORBETT ART
             <hr>
           </div>
-          <div class="text1">Designed and built to promote and display mixed media art portfolio.
+          <div class="text1">WEBSITE <br> Mixed Media Artist
           </div>
         </div>
     </div>
 
   </a>
 
-
-
-  <a class="box2" href="AW.php">
-
-    <div class="container"> 
-      <video autoplay loop muted class="image">
-          <source src="img/AW.mp4" type="video/mp4"/>
-      </video>
-
-      <div class="middle">
-          <div class="text">ANDY WOLFF
-            <hr>
-          </div>
-  
-          <div class="text1">Designed and built to promote and display mixed media art portfolio.
-          </div>
-      </div>
-    </div>
-    
-  </a>
 
 </div>
 
@@ -107,28 +109,40 @@
 
 
   <div class="ABOUT foo">
-
     No sugarcoating.
-    <br>
-    At /CURSR we specialize in digital development, branding, marketing, and analytics. Our mission is to make things click for you and your users. You can be yourself while working with us -- we don’t mind /cursing. We offer an array of services including:
 
-      <ul>
-        <li>
-        _ Web Design & Development
-        </li>
-        <li>
-        _ Branding & Identity
-        </li>
-        <li>
-        _ Social Media Strategy
-        </li>
-        <li>
-        _ Analytics
-        </li>
-        <li> 
-        _ User Research
-        </li>
-      </ul>
+    <br>
+    <br>
+    At <span>/CURSR</span>
+    we specialize in digital development, branding, marketing, and analytics. Our mission is to make things click for you and your users. You can be yourself while working with us -- we don’t mind /cursing. We offer an array of services including:
+
+
+    <div class="ICON_WRAP foo">
+        <div>
+          <img src="img/code.svg">
+          <br>
+            Web Development
+        </div>
+
+        <div>
+          <img src="img/fingerprint.svg">
+          <br>
+            Brand Identity
+        </div>
+
+        <div>
+          <img src="img/map.svg">
+          <br>
+            Content Strategy
+        </div>
+
+        <div>
+          <img src="img/magnifier.svg">
+          <br>
+            SEO + Analytics
+        </div>
+    </div>
+
   </div>
 
 </div>
@@ -136,48 +150,47 @@
 
 </div>
 
+<div class="BREAK_MB"></div>
+
 <div id="MAIN_WRAP">
 
-<div class="BREAK"></div>
 
 
-  <div class="foo">
-    <h1 class="title">
+
+  <div>
+    <h1 class="title foo">
     What to make the competition curse?
     </h1>
 
-    <h1 class="title">
-    Contact us / 816-237-0512 / cursrco@gmail.com
+    <h1 class="title foo">
+    Contact us / <a href="tel:816-237-0512">816-237-0512</a> / <a href="mailto:cursrco@gmail.com">cursrco@gmail.com</a>
     </h1>
   </div>
 
 </div>
 
 
-<div class="BREAK"></div>
-<hr>
-<div class="BREAK"></div>
+
+<hr class="foo">
+
 
 
 <div id="MAIN_WRAP">
 
   <div class="ABOUT foo">
 
-  <div>
-  MESSAGE DIRECTLY
-  </div>
 
   <form id="ajax-contact" method="post" action="mailer.php">
         
         <div class="FORM1">
-          MESSAGE*<br>
+          MESSAGE<span>*</span><br>
           <textarea id="message" name="message" class="MESSAGE" required></textarea><br>
         </div>
         
         <div class="FORM0">
-          NAME*<br>      
+          NAME<span>*</span><br>      
           <input type="text" id="name" name="name" required><br>
-          E-MAIL*
+          E-MAIL<span>*</span>
           <input type="text" id="email" name="email" required><br>
           <input class="SEND" type="submit" value="SEND">
         </div>

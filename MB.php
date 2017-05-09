@@ -12,17 +12,19 @@
 
 <div id="MAIN_WRAP">
 
-<div class="BREAK"></div>
 
   <div class="foo">
+      <div class="LOGO">
+          <img src="img/MB_LOGO.png">
+      </div>
+      
+      <h1 class="title">
+        MOMMAS BOY
+      </h1>
 
-  <h1 class="title">
-    MOMMAS BOY
-  </h1>
-
-  <p>
-    Creating a brand identity and website for Momma’s Boy in conjunction with their debut record release was an exciting experience for all of us -- especially in the intense competitive noise that obscures the indie music market.
-  </p>
+      <p>
+        Creating a brand identity and website for Momma’s Boy in conjunction with their debut record release was an exciting experience for all of us -- especially in the intense competitive noise that obscures the indie music market.
+      </p>
 
   </div>
 
@@ -117,44 +119,38 @@
 <div class="BREAK"></div>
 
 
-  <div class="foo">
-    <h1 class="title">
+  <div>
+    <h1 class="title foo">
     What to make the competition curse?
     </h1>
 
-    <h1 class="title">
-    Contact us / 816-237-0512 / cursrco@gmail.com
+    <h1 class="title foo">
+    Contact us / <a href="tel:816-237-0512">816-237-0512</a> / <a href="mailto:cursrco@gmail.com">cursrco@gmail.com</a>
     </h1>
   </div>
 
 </div>
 
 
-<div class="BREAK"></div>
-
-<hr>
-<div class="BREAK"></div>
+<hr class="foo">
 
 
 <div id="MAIN_WRAP">
 
   <div class="ABOUT foo">
 
-  <div>
-  MESSAGE DIRECTLY
-  </div>
 
   <form id="ajax-contact" method="post" action="mailer.php">
         
         <div class="FORM1">
-          MESSAGE*<br>
+          MESSAGE<span>*</span><br>
           <textarea id="message" name="message" class="MESSAGE" required></textarea><br>
         </div>
         
         <div class="FORM0">
-          NAME*<br>      
+          NAME<span>*</span><br>      
           <input type="text" id="name" name="name" required><br>
-          E-MAIL*
+          E-MAIL<span>*</span>
           <input type="text" id="email" name="email" required><br>
           <input class="SEND" type="submit" value="SEND">
         </div>
