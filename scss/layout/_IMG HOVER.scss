@@ -9,7 +9,7 @@
 .image {
   opacity: 1;
   display: block;
-  min-width: 100%;
+  
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -29,7 +29,6 @@
 
 .container:hover .image {
   opacity: 0.3;
-  zoom: 50%;
 
 }
 
@@ -42,6 +41,7 @@
   color: #f5b1a8;
   transition: transform 1s;
   text-align: center;
+  font-weight: bold;
 }
 
 .text {
@@ -50,13 +50,11 @@
   font-weight: bold;
   transition: transform 0.5s;
   text-align: center;
-  padding-bottom: 30px;
 
-    hr {
-    background-color: $color-pink;
-    margin-top: 20px;
-    padding: 0.5px;
+  hr {
+    margin-bottom: 15%;
   }
+
 }
 
 .container:hover .text1{

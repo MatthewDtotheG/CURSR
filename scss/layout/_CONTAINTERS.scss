@@ -4,6 +4,7 @@
 	@include outer-container(90%);
 	background-color: white;
 	transition: .5s ease;
+  position: relative;
 
 	@media #{$brk-wide} {
     @include outer-container(100%);

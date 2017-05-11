@@ -12,13 +12,15 @@
 <div class="CURSR_WRAP">
 
 
-    <div id="LIST_WRAP"> 
-      <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
+    <div id="LIST_WRAP">
+
       <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
       <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
       <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
       <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
       <div class="CURSR0 OK"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;<span >U</span> &nbsp;R&nbsp; S&nbsp; _&nbsp; R</div>
+      <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
+      <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
       <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
       <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
       <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
@@ -29,18 +31,18 @@
 </div>
 
 
-<div id="MAIN_WRAP">
+<div id="MAIN_WRAP" class="FIX">
 
-<div class="BREAK"></div>
-
-
-	<h1 class="title foo">
-		/CURSR is a creative studio in Kansas City.
-		We build websites, identities &#38; experiences for brands.
-	</h1>
+    <div class="BREAK"></div>
 
 
-<div class="BREAK"></div>
+    	<h1 class="title foo">
+    		/CURSR is a creative studio in Kansas City.<br>
+    		We build websites, identities &#38; experiences for brands.
+    	</h1>
+
+
+    <div class="BREAK"></div>
 
 </div>
 
@@ -53,17 +55,16 @@
 
     <div class="container"> 
       <video autoplay loop muted class="image">
-          <source src="img/AW.mp4" type="video/mp4"/>
+          <source  src="img/AW.mp4" type="video/mp4"/>
       </video>
 
       <div class="middle">
           <div class="text">ANDY WOLFF
             <hr>
           </div>
-  
-          <div class="text1">WEBSITE + ANALYTICS <br> Videographer 
-          </div>
+          <div class="text1">VIEW PROJECT</div>
       </div>
+      
     </div>
     
   </a>
@@ -78,7 +79,7 @@
           <div class="text">MOMMA'S BOY
             <hr>
           </div>
-          <div class="text1">WEBSITE + STRATEGY <br> Surf-rock Band</div>
+          <div class="text1">VIEW PROJECT</div>
         </div>
     </div>
 
@@ -92,8 +93,7 @@
           <div class="text">ANDY CORBETT ART
             <hr>
           </div>
-          <div class="text1">WEBSITE <br> Mixed Media Artist
-          </div>
+          <div class="text1">VIEW PROJECT</div>
         </div>
     </div>
 
