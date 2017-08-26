@@ -1,12 +1,12 @@
 
 #MAIN_WRAP {
 
-	@include outer-container(90%);
-	background-color: white;
-	transition: .5s ease;
+  @include outer-container(80%);
+  background-color: white;
+  transition: .5s ease;
   position: relative;
 
-	@media #{$brk-wide} {
+  @media #{$brk-maxwidth} {
     @include outer-container(100%);
     transition: .5s ease;
   }
@@ -25,10 +25,19 @@
   margin-bottom: 200px;
   z-index: 900000;
   @include span-columns(10);
+
+    @media #{$brk-narrow} {
+       margin-bottom: 50px;
+    }
 }
 
-.BREAK_MB {
-  margin-bottom: 150px;
-  z-index: 900000;
-  @include span-columns(10);
+.BREAK_2 {
+    margin-bottom: 100px;
+    z-index: 900000;
+    @include span-columns(10);
+
+    @media #{$brk-narrow} {
+       margin-bottom: 0px;
+    }
 }
+

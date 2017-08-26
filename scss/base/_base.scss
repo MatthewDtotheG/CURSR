@@ -12,17 +12,26 @@ html {
   width: 100%;
   height: 100%;
   background-color: $color-pink;
+
+  @media #{$brk-small} {
+    height: 80%;
+  }
+
 }
 
 #LIST_WRAP {
   width: 100%;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 1%;
   position: absolute;
   text-align: center;
 
   @media #{$brk-narrow} {
-     margin-top: 30%;
+    padding-top: 50px;
+  }
+
+  @media #{$brk-small} {
+    padding-top: 50px;
   }
 
 }
@@ -32,8 +41,12 @@ html {
   font-size: 40px;
   font-family: courier;
   color: black;
-  
 
+  @media #{$brk-small} {
+     font-size: 22px;
+  }
+
+  
   span {
     color: white;
     opacity: 1;
@@ -76,11 +89,25 @@ hr {
 
 
 .title {
-  font-size: 30px;
+  @include span-columns(12);
+  font-size: 20px;
   text-align: center;
-  padding: 0px 15%;
   z-index: 900;
-  line-height: 50px; 
+  line-height: 60px;
+
+@media #{$brk-wide} {
+    padding: 0px 20px;
+  } 
+
+  @media #{$brk-narrow} {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 50px;
+    padding: 30px 0px;
+
+  }
+
 }
 
 
@@ -91,29 +118,47 @@ p {
   z-index: 900;
   line-height: 50px;
   font-weight: bold;
+
+  @media #{$brk-narrow} {
+      padding: 20px;
+      text-align: left;
+  }
 }
 
 
 .TITLE_WIDTH {
    @include span-columns(6);
    padding: 0px;
-   text-align: right;
-   padding-right: 100px;
+   text-align: center;
    color: $color-pink; 
+
+  @media #{$brk-narrow} {
+    @include span-columns(12 of 12);
+      padding-top: 30px;
+      font-size: 30px;
+  }
 }
 
 .P_WIDTH {
   @include span-columns(6);
   text-align: left;
   padding: 0px;
-  padding-right: 100px;
+  padding-right: 50px;
+
+  @media #{$brk-narrow} {
+    @include span-columns(12 of 12);
+      padding: 20px;
+
+  }
 }
 
 
-
-h1,
-h2 {
+#MAIN_WRAP h1, h2 {
   font-size: 40px;
+
+  @media #{$brk-narrow} {
+    font-size: 20px;
+  }
 }
 
 
@@ -121,11 +166,19 @@ h2 {
 
 .box0 {
    @include span-columns(6 of 12, table);
+
+   @media #{$brk-narrow} {
+    @include span-columns(12 of 12);
+  }
   
 }
 
 .box1 {
    @include span-columns(6 of 12, table);
+
+   @media #{$brk-narrow} {
+    @include span-columns(12 of 12);
+  }
 }
 
 
@@ -146,18 +199,91 @@ h2 {
 }
 
 
-.LOGO {
+
+
+footer {
+  
   @include span-columns(12);
-  display: block;
+  background-color: black;
+  color: $color-pink;
+  margin-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
-  margin: 80px auto;
+
+  @media (max-width: 768px) {
+      margin-top: 160px;
+    }
+
+
+  a {
+    margin: 80px;
+
+    @media (max-width: 768px) {
+      margin: 15px;
+    }
+  }
 
   img {
-    width: 20%;
-    margin: auto;
+    margin-top: 10%;
+    height: 70px;
+    width: 70px;
+
+    @media (max-width: 768px) {
+      margin-top: 20%;
+      height: 40px;
+      width: 40px;
+      display: inline;
+    }
+  }
+
+  span {
+    color: white;
+  }
+
+  div {
+    
+    margin: 40px;
+    margin-top: 12%;
+  }
+
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    -ms-transform:     translateY(0);
+    transform:         translateY(0)
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform:     translateY(-30px);
+    transform:         translateY(-30px)
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform:     translateY(-15px);
+    transform:         translateY(-15px)
   }
 }
 
+img {  
+  position: relative;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+}
+
+img:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+}
 
 
 

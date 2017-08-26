@@ -8,10 +8,36 @@
 
 <body>
 
+<div id="NAV" class="NAV">
+        <div id="NAVMENU">
+          <div class="nav-mobile-wrap">
+            <a href="/">
+             HOME
+            </a>
+            <a href="AW.php">
+              ANDY WOLFF
+            </a>
+            <a href="AC.php">
+              ANDY CORBETT
+            </a>
+            <a href="MB.php">
+              MOMMA'S BOY
+            </a>
+          </div>
+        </div>
+
+      <a class="toggle-nav">
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
+    </div>
+
 
 <div class="CURSR_WRAP">
-
-
     <div id="LIST_WRAP">
 
       <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
@@ -26,8 +52,6 @@
       <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
       <div class="CURSR"> CTRL&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;C &nbsp;_ &nbsp;R&nbsp; S&nbsp; _ &nbsp;R</div>
     </div>
-
-
 </div>
 
 
@@ -36,10 +60,10 @@
     <div class="BREAK"></div>
 
 
-    	<h1 class="title foo">
-    		/CURSR is a creative studio in Kansas City.<br>
-    		We build websites, identities &#38; experiences for brands.
-    	</h1>
+      <h1 class="title foo">
+        /CURSR is a creative studio in Kansas City.<br>
+        We build websites, identities &#38; experiences for brands.
+      </h1>
 
 
     <div class="BREAK"></div>
@@ -47,15 +71,13 @@
 </div>
 
 
-  
 <div id="MAIN_WRAP">
-
-
   <a class="box2" href="AW.php">
 
     <div class="container"> 
+      <img class="image_special" src="img/AW_MOBILE.jpg">
       <video autoplay loop muted class="image">
-          <source  src="img/AW.mp4" type="video/mp4"/>
+          <source src="img/AW.mp4" type="video/mp4"/>
       </video>
 
       <div class="middle">
@@ -108,26 +130,29 @@
 <div class="BREAK"></div>
 
 
-  <div class="ABOUT foo">
+<div class="ABOUT foo">
     No sugarcoating.
 
     <br>
     <br>
-    At <span>/CURSR</span>
-    we specialize in digital development, branding, marketing, and analytics. Our mission is to make things click for you and your users. You can be yourself while working with us -- we don’t mind /cursing. We offer an array of services including:
+
+    <div class="ABOUT_BLURB">
+      At <span>/CURSR</span>
+      we specialize in digital development, branding, marketing, and analytics. Our mission is to make things click for you and your users. You can be yourself while working with us -- we don’t mind /cursing. We offer an array of services including:
+    </div>
 
 
     <div class="ICON_WRAP foo">
         <div>
-          <img src="img/code.svg">
+          <img class="FUCK" src="img/code.svg">
           <br>
-            Web Development
+            Web Design
         </div>
 
         <div>
           <img src="img/fingerprint.svg">
           <br>
-            Brand Identity
+            Brand Identity  
         </div>
 
         <div>
@@ -143,26 +168,22 @@
         </div>
     </div>
 
-  </div>
 
+        <div class="ABOUT_BLURB">
+          You need a site, design or strategy that showcases your personality across all channels and drives traffic to your business. We leverage our experience in development, branding, content strategy, and web analytics to make that 
+            <span>shit</span> happen.
+        </div>
+    </div>
 </div>
- 
 
-</div>
-
-<div class="BREAK_MB"></div>
+<div class="BREAK_2"></div>
 
 <div id="MAIN_WRAP">
-
-
-
 
   <div>
     <h1 class="title foo">
     What to make the competition curse?
-    </h1>
-
-    <h1 class="title foo">
+    <br>
     Contact us / <a href="tel:816-237-0512">816-237-0512</a> / <a href="mailto:cursrco@gmail.com">cursrco@gmail.com</a>
     </h1>
   </div>
@@ -172,7 +193,6 @@
 
 
 <hr class="foo">
-
 
 
 <div id="MAIN_WRAP">
@@ -206,16 +226,11 @@
 
 </div>
 
+<footer>
 
+  <div> 2017 <span>/</span> CURSR </div>
 
-
-
-
-
-
-
-
-</div>
+</footer>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

@@ -8,6 +8,34 @@
 
 <body>
 
+    <div id="NAV" class="NAV">
+        <div id="NAVMENU">
+          <div class="nav-mobile-wrap">
+            <a href="/">
+             HOME
+            </a>
+            <a href="AW.php">
+              ANDY WOLFF
+            </a>
+            <a href="AC.php">
+              ANDY CORBETT
+            </a>
+            <a href="MB.php">
+              MOMMA'S BOY
+            </a>
+          </div>
+        </div>
+
+      <a class="toggle-nav">
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
+    </div>
+
 
 
 <div id="MAIN_WRAP">
@@ -59,21 +87,18 @@
 
 <div id="MAIN_WRAP">
 
-<div class="BREAK_MB"></div>
+<div class="BREAK_2"></div>
 
-<div class="foo">
+  <div class="foo">
+    <h1 class="title TITLE_WIDTH">
+     PROCESS
+    </h1>
+     <p class="P_WIDTH">
+      We designed, developed, and deployed a minimal site that showcased Andy’s work front-and-center while remaining elegant and easy to navigate. On the back end, we set up click tracking and and randomization on the video, photo, and resume elements to see which content drove clicks and in what geographic markets, giving Andy a better grasp on how to improve his odds of getting work.
+    </p>
+  </div>
 
-  <h1 class="title TITLE_WIDTH">
-   PROCESS
-  </h1>
-
-   <p class="P_WIDTH">
-    We designed, developed, and deployed a minimal site that showcased Andy’s work front-and-center while remaining elegant and easy to navigate. On the back end, we set up click tracking and and randomization on the video, photo, and resume elements to see which content drove clicks and in what geographic markets, giving Andy a better grasp on how to improve his odds of getting work.
-  </p>
-
-</div>
-
-<div class="BREAK_MB"></div>
+<div class="BREAK_2"></div>
 
 </div>
 
@@ -86,13 +111,13 @@
   </h1>
 
    <p class="P_WIDTH">
-    Andy is now happily employed with Disney Interactive Studios! You can find his work and partner with him here.
+    Andy is now happily employed with Disney Interactive Studios! You can find his work and partner with him <a target="_blank" href="http://andywolff.co/">here</a>.
     
   </p>
 
 </div>
 
-<div class="BREAK_MB"></div>
+<div class="BREAK_2"></div>
 
 </div>
 
@@ -110,26 +135,14 @@
 
 </div>
 
-
-
-
-
+<div class="BREAK_2"></div>
 
 <div id="MAIN_WRAP">
-
-<div class="BREAK"></div>
-
-
-  <div>
     <h1 class="title foo">
     What to make the competition curse?
-    </h1>
-
-    <h1 class="title foo">
+    <br>
     Contact us / <a href="tel:816-237-0512">816-237-0512</a> / <a href="mailto:cursrco@gmail.com">cursrco@gmail.com</a>
     </h1>
-  </div>
-
 </div>
 
 
@@ -167,16 +180,14 @@
 
 </div>
 
-
-
-
-
-
-
-
-
-
 </div>
+
+
+<footer>
+
+  <div> 2017 <span>/</span> CURSR </div>
+
+</footer>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

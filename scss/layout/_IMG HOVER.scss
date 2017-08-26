@@ -4,17 +4,40 @@
     position: relative;
     width: 100%;
     background-color: black;
+
+    @media #{$brk-narrow} {
+      video {
+        display:none;
+        }
+    }
+
 }
+
+
+
+//================================
 
 .image {
   opacity: 1;
   display: block;
-  
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
+.image_special {
+  visibility: hidden;
+  backface-visibility: hidden;
+  display: none;
+
+  @media #{$brk-narrow} {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    visibility: visible;
+    }
+}
 
 
 .middle {
@@ -23,12 +46,23 @@
   position: absolute;
   top: 55%;
   left: 50%;
+
+    @media #{$brk-narrow} {
+     opacity: 1;
+     width: 100%;
+  }
+
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
+
 }
 
 .container:hover .image {
   opacity: 0.3;
+
+    @media #{$brk-narrow} {
+       opacity: 1;
+    }
 
 }
 
@@ -42,6 +76,10 @@
   transition: transform 1s;
   text-align: center;
   font-weight: bold;
+
+  @media #{$brk-narrow} {
+     font-size: 25px;
+  }
 }
 
 .text {
@@ -51,20 +89,33 @@
   transition: transform 0.5s;
   text-align: center;
 
+  @media #{$brk-narrow} {
+     font-size: 25px;
+  }
+
   hr {
     margin-bottom: 15%;
+    @media #{$brk-narrow} {
+       margin: 10px auto;
+    }
   }
 
 }
 
 .container:hover .text1{
    transform: translateY(-60px);
+       @media #{$brk-narrow} {
+       transform: none;
+    }
    
   }
 
  .container:hover .text{
    transform: translateY(-50px);
-   
+
+    @media #{$brk-narrow} {
+       transform: none;
+    }
   }
 
 

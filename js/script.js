@@ -32,7 +32,7 @@ $(function(){
 
 
 // NAV +===========================
-
+/*
 $(document).ready(function(){  
         $("#NAV").hide();                  
         $(window).scroll(function(){                          
@@ -43,13 +43,12 @@ $(document).ready(function(){
             }
         });
     });
-
-// NAV  +===========================
+*/
+ //NAV  +===========================
 
 
 for (i = 0; i < 50; i++) {
   var cloneHtml = $('#LIST_WRAP').clone();
-
   cloneHtml.appendTo('.CURSR_WRAP');
 }
 
@@ -113,12 +112,11 @@ sr.reveal('.box2', box2);
 $(document).ready(function(){
   $('#nav-icon3').click(function(){
     $(this).toggleClass('open');
+    $('#NAVMENU').fadeToggle(300);
+    $('#NAV').toggleClass("colorChange")
   });
 });
 
-$('#nav-icon3').click(function() {
-    $('#NAVMENU').fadeToggle(300);
-});
 
 
 

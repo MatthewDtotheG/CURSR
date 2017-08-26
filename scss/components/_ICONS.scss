@@ -1,56 +1,27 @@
 /* ICONS */
 
 
+.LOGO {
+  @include span-columns(12);
+  display: block;
+  text-align: center;
+  margin: 80px auto;
 
-
-
-
-
-
-
-
-
-/* LOGO ===========================
-.LOGO1 {
-    margin-top: 35px;
-    height: 74px;
-    width: 120px;
-    transition: all ease .5s;
-  }
-
-.LOGO1:hover {
-    opacity: .5;
+  img {
+    width: 30%;
 }
-  
 
-
-  .LOGOFOOTER {
-    height: 40px;
-    width: 40px;
-    margin: auto;
-    display: block;
-  }
-  
-
-.NAME {
-
-  @media #{$brk-narrow}{
-    height: 143px;
-    width: 480px; }
-
-   @media #{$brk-small} {
-    height: 102px;
-    width: 340px;
+  @media #{$brk-narrow} {
+    height: 10%;
+    width: 100%;
   }
 
-  @media #{$brk-xsmall} {
-    height: 102px;
-    width: 300px;
-  }   
 }
 
 
 
 
 
-/* LOGO END =========================== */
+
+
+// LOGO END =========================== 

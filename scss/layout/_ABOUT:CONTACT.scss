@@ -1,47 +1,91 @@
 
 .ABOUT {
-  font-size: 30px;
   @include span-columns(12);
+  font-size: 30px;
   text-align: left;
-  padding: 0px 10%;
+  padding: 0px;
   z-index: 900;
   line-height: 50px;
   font-weight: bold;
+  padding: 0px 80px;
+
+  div {
+    position: relative;
+  }
 
   img {
     height: 80px;
     width: 80px;
+
+  @media #{$brk-narrow} { 
+        height: 50px;
+        width: 50px;
+      }
   }
 
   span {
     color: $color-pink;
   }
 
+@media #{$brk-narrow} {
+    padding: 0px 20px;
+    font-size: 20px;
+  }
+
 }
+
+.ABOUT_BLURB {
+  @include span-columns(12);
+  margin-bottom: 50px;
+}
+
+
 
 .ICON_WRAP {
   font-size: 25px;
-  margin-top: 150px;
+  margin: 0px;
+  padding-top: 400px;
+  padding-bottom: 400px;
   text-align: center;
+
+@media #{$brk-narrow} { 
+      padding-top: 200px;
+      padding-bottom: 200px;  
+  }  
+
+@media #{$brk-small} { 
+      padding-top: 450px;
+      padding-bottom: 200px;  
+  }
+
 
   div {
     @include span-columns(3 of 12);
-    text-align: center;
-  }
+
+    @media #{$brk-narrow} { 
+        margin-bottom: 40px;
+        font-size: 15px;
+        line-height: 25px;
+        margin: 2px;
+      }
+    }
 }
 
 
-
-
-.FORM1 {
-      font-size: 30px;
+.FUCK {
+  margin-left: 7px;
 }
+
 
 .SEND {
   background-color: $color-pink;
   color: black;
   transition: .5s ease;
   border: 1px solid black;
+
+@media #{$brk-small} { 
+        @include span-columns(12);
+      }
 }
 
 .SEND:hover {

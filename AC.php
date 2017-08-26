@@ -8,6 +8,33 @@
 
 <body>
 
+<div id="NAV" class="NAV">
+        <div id="NAVMENU">
+          <div class="nav-mobile-wrap">
+            <a href="/">
+             HOME
+            </a>
+            <a href="AW.php">
+              ANDY WOLFF
+            </a>
+            <a href="AC.php">
+              ANDY CORBETT
+            </a>
+            <a href="MB.php">
+              MOMMA'S BOY
+            </a>
+          </div>
+        </div>
+
+      <a class="toggle-nav">
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
+    </div>
 
 
 <div id="MAIN_WRAP">
@@ -60,7 +87,7 @@
 
 <div id="MAIN_WRAP">
 
-<div class="BREAK_MB"></div>
+<div class="BREAK_2"></div>
 
 <div class="foo">
 
@@ -74,7 +101,7 @@
 
 </div>
 
-<div class="BREAK_MB"></div>
+<div class="BREAK_2"></div>
 
 </div>
 
@@ -87,49 +114,34 @@
   </h1>
 
    <p class="P_WIDTH">
-    The site has garnered Andy multiple slots in art shows since launch. What’s more, Andy now has a place to send folks who are interested in learning more about the artist, his work, and his day-to-day creative lifestyle. 
+    The site has garnered Andy multiple slots in art shows since launch. What’s more, Andy now has a place to send folks who are interested in learning more about the artist, his work, and his day-to-day creative lifestyle. You can connect with him 
+    <a target="_blank" href="http://andycorbettart.com/">here</a>.
   </p>
 
 </div>
 
-<div class="BREAK_MB"></div>
+<div class="BREAK_2"></div>
 
 </div>
 
 
 <div id="MAIN_WRAP">
-
   <a class="box0">
         <img class="image" src="img/AC0.png">
   </a>
-
-
   <a class="box1">
         <img class="image" src="img/AC2.png">
   </a>
-
 </div>
 
-
-
-
-
+<div class="BREAK_2"></div>
 
 <div id="MAIN_WRAP">
-
-<div class="BREAK"></div>
-
-
-  <div>
     <h1 class="title foo">
     What to make the competition curse?
-    </h1>
-
-    <h1 class="title foo">
+    <br>
     Contact us / <a href="tel:816-237-0512">816-237-0512</a> / <a href="mailto:cursrco@gmail.com">cursrco@gmail.com</a>
     </h1>
-  </div>
-
 </div>
 
 
@@ -167,16 +179,17 @@
 
 </div>
 
-
-
-
-
-
-
-
-
-
 </div>
+
+
+<footer>
+
+  <div> 2017 <span>/</span> CURSR </div>
+
+</footer>
+
+
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
