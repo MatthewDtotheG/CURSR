@@ -228,7 +228,7 @@
 
 <footer>
 
-  <div> 2017 <span>/</span> CURSR </div>
+  <div> 2017 <span>/</span> CURSR &copy;</div>
 
 </footer>
 

@@ -25,6 +25,11 @@ html {
   margin-top: 1%;
   position: absolute;
   text-align: center;
+  padding-top: 120px;
+
+  @media #{$brk-maxwidth} {
+    padding-top: 20px;
+  }
 
   @media #{$brk-narrow} {
     padding-top: 50px;
@@ -88,7 +93,7 @@ hr {
 
 
 
-.title {
+.title, .work_title {
   @include span-columns(12);
   font-size: 20px;
   text-align: center;
@@ -108,6 +113,10 @@ hr {
 
   }
 
+}
+
+.work_title {
+  color: $color-pink;
 }
 
 
@@ -136,6 +145,7 @@ p {
     @include span-columns(12 of 12);
       padding-top: 30px;
       font-size: 30px;
+      padding-bottom: 0px;
   }
 }
 

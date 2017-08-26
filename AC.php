@@ -46,7 +46,7 @@
               <img src="img/AC_LOGO.png">
       </div>
 
-      <h1 class="title">
+      <h1 class="work_title">
         ANDY CORBET ART
       </h1>
 
@@ -184,7 +184,7 @@
 
 <footer>
 
-  <div> 2017 <span>/</span> CURSR </div>
+  <div> 2017 <span>/</span> CURSR &copy; </div>
 
 </footer>
 
