@@ -1,7 +1,8 @@
 <html>
   <head>
     <title> CURSR - Andy Wolff </title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="img/C.png">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
 
@@ -14,15 +15,18 @@
             <a href="/">
              HOME
             </a>
-            <a href="AW.php">
-              ANDY WOLFF
-            </a>
-            <a href="AC.php">
-              ANDY CORBETT
-            </a>
-            <a href="MB.php">
-              MOMMA'S BOY
-            </a>
+            <button class="accordion">WORK</button>
+            <div class="panel">
+              <a href="AW.php">
+                ANDY WOLFF
+              </a>
+              <a href="AC.php">
+                ANDY CORBETT
+              </a>
+              <a href="MB.php">
+                MOMMA'S BOY
+              </a>
+            </div>
           </div>
         </div>
 
@@ -139,7 +143,7 @@
 
 <div id="MAIN_WRAP">
     <h1 class="title foo">
-    What to make the competition curse?
+    Want to make the competition curse?
     <br>
     Contact us / <a href="tel:816-237-0512">816-237-0512</a> / <a href="mailto:cursrco@gmail.com">cursrco@gmail.com</a>
     </h1>

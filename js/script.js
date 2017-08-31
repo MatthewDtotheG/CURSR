@@ -30,23 +30,6 @@ $(function(){
 
 
 
-
-// NAV +===========================
-/*
-$(document).ready(function(){  
-        $("#NAV").hide();                  
-        $(window).scroll(function(){                          
-            if ($(this).scrollTop() > 700) {
-                $('#NAV').fadeIn();
-            } else {
-                $('#NAV').fadeOut();
-            }
-        });
-    });
-*/
- //NAV  +===========================
-
-
 for (i = 0; i < 50; i++) {
   var cloneHtml = $('#LIST_WRAP').clone();
   cloneHtml.appendTo('.CURSR_WRAP');
@@ -124,6 +107,24 @@ $(document).ready(function(){
 
 
 
+// ACCORDION ===============================
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+
+// ACCORDION END ===============================
 
 
 

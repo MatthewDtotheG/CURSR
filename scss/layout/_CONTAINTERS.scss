@@ -1,6 +1,5 @@
 
 #MAIN_WRAP {
-
  @include outer-container(1275px);
   background-color: white;
   transition: .5s ease;
@@ -12,8 +11,6 @@
   }
 
 }
-
-
 
 #WRAP {
 	@include outer-container(100%);

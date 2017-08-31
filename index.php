@@ -1,28 +1,32 @@
 <html>
   <head>
     <title> /CURSR </title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="img/C.png">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
 
 
 <body>
-
-<div id="NAV" class="NAV">
+  <div id="NAV" class="NAV">
         <div id="NAVMENU">
           <div class="nav-mobile-wrap">
             <a href="/">
              HOME
             </a>
-            <a href="AW.php">
-              ANDY WOLFF
-            </a>
-            <a href="AC.php">
-              ANDY CORBETT
-            </a>
-            <a href="MB.php">
-              MOMMA'S BOY
-            </a>
+            <button class="accordion">WORK</button>
+            <div class="panel">
+              <a href="AW.php">
+                ANDY WOLFF
+              </a>
+              <a href="AC.php">
+                ANDY CORBETT
+              </a>
+              <a href="MB.php">
+                MOMMA'S BOY
+              </a>
+            </div>
+
           </div>
         </div>
 
@@ -61,7 +65,7 @@
 
 
       <h1 class="title foo">
-        /CURSR is a creative studio in Kansas City.<br>
+        /CURSR is a creative studio in Kansas City.
         We build websites, identities &#38; experiences for brands.
       </h1>
 
@@ -130,7 +134,7 @@
 <div class="BREAK"></div>
 
 
-<div class="ABOUT foo">
+<div id="SERVICES" class="ABOUT foo">
     No sugarcoating.
 
     <br>
@@ -182,7 +186,7 @@
 
   <div>
     <h1 class="title foo">
-    What to make the competition curse?
+    Want to make the competition curse?
     <br>
     Contact us / <a href="tel:816-237-0512">816-237-0512</a> / <a href="mailto:cursrco@gmail.com">cursrco@gmail.com</a>
     </h1>
