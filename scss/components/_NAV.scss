@@ -1,13 +1,5 @@
 /* NAV MENU */
 
-
-
-
-
-/* MOBILE MENU   ====================*/ 
-
-
- 
 .image_full{
    display: none;
   } 
@@ -25,9 +17,7 @@
 	z-index: 999900000;
   top: 0;
   width: 100%;
-
 }
-
 
 #NAV.colorChange {
   position: fixed;
@@ -37,8 +27,6 @@
   background-color: black;
   transition: width 0.6s ease; -webkit-transition: width 0.6s ease;
 }
-
-
 
 .NAV {
     height: 50px;
@@ -51,7 +39,7 @@
     top: 50px;
     left: 0;
     text-align: center;
-    background-color: white;
+    background-color: black;
     display: none;
   }
 
@@ -61,15 +49,13 @@
 
 #NAVMENU .nav-mobile-wrap {
     height: calc(100vh - 50px);
-    padding: 30px 0;
-
+    padding: 80px 0;
   }
 
 .NAV_ITEMS {
   float: none;
   text-align: center;
   margin: auto;
-
   margin-right: 0px;
 }
 
@@ -80,29 +66,32 @@
   width: auto;
 }
 
-  
-
-  #NAVMENU.push {
+#NAVMENU.push {
     margin-top: 0;
   }
   
-  #NAVMENU a {
+#NAVMENU a {
     display: block;
     margin: auto;
-    margin-top: 40px;
-    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: $color-pink;
     font-size: 50px;
     font-weight: bold;
 
     @media #{$brk-narrow} {
        font-size: 30px;
+       margin-left: -80px;
+    }
+    @media #{$brk-small} {
+       font-size: 30px;
+       margin-left: 0px;
     }
   }
 
   #NAVMENU a:hover {
-    color: $color-pink;
+    
   }
-
 
   #NAVMENU .sliding-middle-out:after{
     display: none;
@@ -122,9 +111,9 @@
     height: 80px;
     position: relative;
     margin: auto;
-    margin-top: 13px;
+    margin-top: 50px;
     margin-bottom: 0px;
-    margin-right: 25px;
+    margin-right: 50px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -134,6 +123,18 @@
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
+
+  @media #{$brk-narrow} {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+  }
+
+  @media #{$brk-small} {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+  }
  }
 
 
@@ -194,22 +195,6 @@
     width: 0%;
     left: 50%;
     background: $color-pink;; }
-
- 
-
-/* MOBILE MENU END   ====================*/
-
-
-  
-
-
-
-
-
-
-
-
-
 
 /* NAV MENU END =========================== */
 

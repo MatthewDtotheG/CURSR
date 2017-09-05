@@ -2,6 +2,9 @@
   <head>
     <title> /CURSR </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="http://cursr.co/img/C.png" />
+    <meta property="og:description" content="Web Design, Brand Identity, Content Strategy, SEO + Analytics" />
+    <meta property="og:title" content="CURSR" />
     <link rel="shortcut icon" type="image" href="img/C.png">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
@@ -12,7 +15,7 @@
         <div id="NAVMENU">
           <div class="nav-mobile-wrap">
             <a href="/">
-             HOME
+             /CURSR
             </a>
             <button class="accordion">WORK</button>
             <div class="panel">
@@ -26,7 +29,6 @@
                 MOMMA'S BOY
               </a>
             </div>
-
           </div>
         </div>
 
@@ -38,7 +40,13 @@
           <span></span>
         </div>
       </a>
+
+    <a href="/" class="arrow">
+        <img src="img/C.png"></img>
+    </a>
     </div>
+
+
 
 
 <div class="CURSR_WRAP">

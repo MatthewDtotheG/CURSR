@@ -34,46 +34,30 @@ for (i = 0; i < 50; i++) {
   var cloneHtml = $('#LIST_WRAP').clone();
   cloneHtml.appendTo('.CURSR_WRAP');
 }
-
-
 var fooReveal = {
   origin : 'bottom',
   delay    : 500,
   distance : '100px',
   easing   : 'ease',
-  
 };
-
-
-
 var box0 = {
   origin : 'left',
   delay    : 200,
   distance : '100px',
-  easing   : 'ease-in-out',
-  
+  easing   : 'ease-in-out', 
 };
-
-
 var box1 = {
   origin : 'right',
   delay    : 200,
   distance : '100px',
   easing   : 'ease-in-out',
-  
 };
-
 var box2 = {
   origin : 'bottom',
   delay    : 200,
   distance : '100px',
   easing   : 'ease-in-out',
 };
-
-
-
-
-
 
 window.sr = ScrollReveal();
 sr.reveal('.CURSR', { duration: 1500 }, 80);

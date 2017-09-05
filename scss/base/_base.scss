@@ -1,11 +1,8 @@
 /* BASE */
 
-
-
 body,
 html {
   margin: 0px;
-
 }
 
 .CURSR_WRAP {
@@ -14,9 +11,8 @@ html {
   background-color: $color-pink;
 
   @media #{$brk-small} {
-    height: 80%;
+    height: 70%;
   }
-
 }
 
 #LIST_WRAP {
@@ -48,10 +44,11 @@ html {
   color: black;
 
   @media #{$brk-small} {
-     font-size: 20px;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
   }
 
-  
   span {
     color: white;
     opacity: 1;
@@ -100,7 +97,7 @@ hr {
   z-index: 900;
   line-height: 60px;
 
-@media #{$brk-wide} {
+  @media #{$brk-wide} {
     padding: 0px 20px;
   } 
 
@@ -162,7 +159,6 @@ p {
   }
 }
 
-
 #MAIN_WRAP h1, h2 {
   font-size: 40px;
 
@@ -170,9 +166,6 @@ p {
     font-size: 20px;
   }
 }
-
-
-
 
 .box0 {
    @include span-columns(6 of 12, table);
@@ -191,7 +184,6 @@ p {
   }
 }
 
-
 .box2 {
   @include span-columns(12);
   overflow: hidden;
@@ -202,17 +194,12 @@ p {
   position: absolute;
 }
 
-
 .tag {
   position: absolute;
   margin-bottom: 50px;
 }
 
-
-
-
-footer {
-  
+footer { 
   @include span-columns(12);
   background-color: black;
   color: $color-pink;
@@ -224,10 +211,8 @@ footer {
       margin-top: 160px;
     }
 
-
   a {
     margin: 80px;
-
     @media (max-width: 768px) {
       margin: 15px;
     }
@@ -255,6 +240,7 @@ footer {
     margin: 40px;
     margin-top: 12%;
   }
+
 
 @keyframes bounce {
   0%, 100%, 20%, 50%, 80% {
@@ -296,20 +282,25 @@ img:hover {
 }
 
 
-
 button.accordion {
     display: inline-block;
     font-size: 50px;
-    background-color: white;
+    background-color: black;
     padding-bottom: 0px;
-    color: black;
+    color: $color-pink;
     transition: .2s ease;
     font-weight: bold;
     outline: none;
     border: none;
 
-  @media #{$brk-narrow} {
+    @media #{$brk-narrow} {
+       font-size: 30px;
+       margin-left: -80px;
+    }
+    
+  @media #{$brk-small} {
     font-size: 30px;
+    margin-left: 0px;
   }
 }
 
@@ -318,25 +309,31 @@ button.accordion.active, button.accordion:hover {
     color: $color-pink;
     outline: none;
     border: none;
-    background-color: white;
+    background-color:  black;
 }
 button:focus {
-    background-color: white;
+    background-color: black;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
-    padding: 0px 10px;
+    padding: 0px;
+    margin-bottom: 0px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s ease-out;
     line-height: 300%;
     font-size: 20px;
+    background-color: $color-pink;
 
     @media #{$brk-narrow} {
     font-size: 16px;
     line-height: 200%;
   }
+}
+
+#NAVMENU .panel a {
+  color: black;
 }
 
 
