@@ -86,7 +86,7 @@
 <div id="MAIN_WRAP">
   <a class="box2" href="AW.php">
 
-    <div class="container"> 
+    <div class="container">
       <img class="image_special" src="img/AW_MOBILE.jpg">
       <video autoplay loop muted class="image">
           <source src="img/AW.mp4" type="video/mp4"/>
@@ -98,13 +98,13 @@
           </div>
           <div class="text1">VIEW PROJECT</div>
       </div>
-      
+
     </div>
-    
+
   </a>
 </div>
 
-<div id="MAIN_WRAP">
+<div id="IMG_BLOCK_WRAP">
 
   <a class="box0" href="MB.php">
     <div class="container">
@@ -119,7 +119,6 @@
 
   </a>
 
-
   <a class="box1" href="AC.php">
    <div class="container">
         <img class="image" src="img/ACGR.png">
@@ -130,7 +129,6 @@
           <div class="text1">VIEW PROJECT</div>
         </div>
     </div>
-
   </a>
 
 
@@ -164,7 +162,7 @@
         <div>
           <img src="img/fingerprint.svg">
           <br>
-            Brand Identity  
+            Brand Identity
         </div>
 
         <div>
@@ -182,7 +180,7 @@
 
 
         <div class="ABOUT_BLURB">
-          You need a site, design or strategy that showcases your personality across all channels and drives traffic to your business. We leverage our experience in development, branding, content strategy, and web analytics to make that 
+          You need a site, design or strategy that showcases your personality across all channels and drives traffic to your business. We leverage our experience in development, branding, content strategy, and web analytics to make that
             <span>shit</span> happen.
         </div>
     </div>
@@ -213,14 +211,14 @@
 
 
   <form id="ajax-contact" method="post" action="mailer.php">
-        
+
         <div class="FORM1">
           MESSAGE<span>*</span><br>
           <textarea id="message" name="message" class="MESSAGE" required></textarea><br>
         </div>
-        
+
         <div class="FORM0">
-          NAME<span>*</span><br>      
+          NAME<span>*</span><br>
           <input type="text" id="name" name="name" required><br>
           E-MAIL<span>*</span>
           <input type="text" id="email" name="email" required><br>
@@ -234,7 +232,7 @@
   <div class="BREAK"></div>
 
 </div>
- 
+
 
 </div>
 

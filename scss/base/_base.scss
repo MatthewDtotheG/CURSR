@@ -5,6 +5,7 @@ html {
   margin: 0px;
 }
 
+
 .CURSR_WRAP {
   width: 100%;
   height: 100%;
@@ -37,7 +38,7 @@ html {
 
 }
 
-.CURSR, 
+.CURSR,
 .CURSR0 {
   font-size: 40px;
   font-family: courier;
@@ -57,11 +58,8 @@ html {
   }
 }
 
-
-
 .CURSR0 {
   color: white;
-
 }
 
 a {
@@ -99,7 +97,7 @@ hr {
 
   @media #{$brk-wide} {
     padding: 0px 20px;
-  } 
+  }
 
   @media #{$brk-narrow} {
     text-align: center;
@@ -136,7 +134,7 @@ p {
    @include span-columns(6);
    padding: 0px;
    text-align: center;
-   color: $color-pink; 
+   color: $color-pink;
 
   @media #{$brk-narrow} {
     @include span-columns(12 of 12);
@@ -169,16 +167,14 @@ p {
 
 .box0 {
    @include span-columns(6 of 12, table);
-
    @media #{$brk-narrow} {
     @include span-columns(12 of 12);
   }
-  
+
 }
 
 .box1 {
    @include span-columns(6 of 12, table);
-
    @media #{$brk-narrow} {
     @include span-columns(12 of 12);
   }
@@ -199,7 +195,7 @@ p {
   margin-bottom: 50px;
 }
 
-footer { 
+footer {
   @include span-columns(12);
   background-color: black;
   color: $color-pink;
@@ -236,7 +232,7 @@ footer {
   }
 
   div {
-    
+
     margin: 40px;
     margin-top: 12%;
   }
@@ -260,7 +256,7 @@ footer {
   }
 }
 
-img {  
+img {
   position: relative;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -297,7 +293,7 @@ button.accordion {
        font-size: 30px;
        margin-left: -80px;
     }
-    
+
   @media #{$brk-small} {
     font-size: 30px;
     margin-left: 0px;
@@ -335,8 +331,3 @@ div.panel {
 #NAVMENU .panel a {
   color: black;
 }
-
-
-
-
-

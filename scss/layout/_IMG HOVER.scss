@@ -10,16 +10,11 @@
         display:none;
         }
     }
-
 }
 
 
-
-//================================
-
 .image {
   opacity: 1;
-  display: block;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -107,7 +102,7 @@
        @media #{$brk-narrow} {
        transform: none;
     }
-   
+
   }
 
  .container:hover .text{
@@ -117,7 +112,3 @@
        transform: none;
     }
   }
-
-
-
-
