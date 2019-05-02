@@ -4,8 +4,12 @@
 // GLOBAL imports
 // ==========================================================================
 
-@import 'plugins/plugins-dir.scss';
-@import 'base/_VARIABLES.scss';
-@import 'base/_base.scss';
-@import 'components/*.scss';
-@import 'layout/*.scss';
+@import "plugins/plugins-dir.scss";
+@import "base/_VARIABLES.scss";
+@import "base/_base.scss";
+@import "components/_ICONS.scss";
+@import "components/_NAV.scss";
+@import "layout/_ABOUT:CONTACT.scss";
+@import "layout/_CONTAINERS.scss";
+@import "layout/_IMG HOVER.scss";
+@import "layout/_MB.scss";

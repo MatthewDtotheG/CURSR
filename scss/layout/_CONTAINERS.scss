@@ -1,0 +1,47 @@
+#MAIN_WRAP {
+  @include outer-container(1275px);
+  background-color: white;
+  transition: 0.5s ease;
+  position: relative;
+
+  @media #{$brk-maxwidth} {
+    @include outer-container(100%);
+    transition: 0.5s ease;
+  }
+}
+
+#IMG_BLOCK_WRAP {
+  @include outer-container(1275px);
+  background-color: white;
+  transition: 0.5s ease;
+  position: relative;
+
+  @media #{$brk-maxwidth} {
+    @include outer-container(100%);
+    transition: 0.5s ease;
+  }
+}
+
+#WRAP {
+  @include outer-container(100%);
+}
+
+.BREAK {
+  margin-bottom: 200px;
+  z-index: 900000;
+  @include span-columns(10);
+
+  @media #{$brk-narrow} {
+    margin-bottom: 50px;
+  }
+}
+
+.BREAK_2 {
+  margin-bottom: 100px;
+  z-index: 900000;
+  @include span-columns(10);
+
+  @media #{$brk-narrow} {
+    margin-bottom: 0px;
+  }
+}
