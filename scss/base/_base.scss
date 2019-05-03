@@ -5,7 +5,6 @@ html {
   margin: 0px;
 }
 
-
 .CURSR_WRAP {
   width: 100%;
   height: 100%;
@@ -35,7 +34,6 @@ html {
   @media #{$brk-small} {
     padding-top: 50px;
   }
-
 }
 
 .CURSR,
@@ -64,9 +62,8 @@ html {
 
 a {
   color: $color-pink;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-
 
 a:visited,
 a:active,
@@ -78,7 +75,6 @@ a:hover {
   color: black;
 }
 
-
 hr {
   width: 70%;
   margin: 10% auto;
@@ -86,9 +82,8 @@ hr {
   background-color: $color-pink;
 }
 
-
-
-.title, .work_title {
+.title,
+.work_title {
   @include span-columns(12);
   font-size: 20px;
   text-align: center;
@@ -105,15 +100,16 @@ hr {
     margin: 0px;
     line-height: 50px;
     padding: 30px 0px;
-
   }
+}
 
+.title {
+  padding: 0px 50px;
 }
 
 .work_title {
   color: $color-pink;
 }
-
 
 p {
   font-size: 20px;
@@ -124,23 +120,22 @@ p {
   font-weight: bold;
 
   @media #{$brk-narrow} {
-      padding: 20px;
-      text-align: left;
+    padding: 20px;
+    text-align: left;
   }
 }
 
-
 .TITLE_WIDTH {
-   @include span-columns(6);
-   padding: 0px;
-   text-align: center;
-   color: $color-pink;
+  @include span-columns(6);
+  padding: 0px;
+  text-align: center;
+  color: $color-pink;
 
   @media #{$brk-narrow} {
     @include span-columns(12 of 12);
-      padding-top: 30px;
-      font-size: 30px;
-      padding-bottom: 0px;
+    padding-top: 30px;
+    font-size: 30px;
+    padding-bottom: 0px;
   }
 }
 
@@ -152,13 +147,13 @@ p {
 
   @media #{$brk-narrow} {
     @include span-columns(12 of 12);
-      padding: 20px;
-
+    padding: 20px;
   }
 }
 
-#MAIN_WRAP h1, h2 {
-  font-size: 40px;
+#MAIN_WRAP h1,
+h2 {
+  font-size: 30px;
 
   @media #{$brk-narrow} {
     font-size: 20px;
@@ -166,16 +161,15 @@ p {
 }
 
 .box0 {
-   @include span-columns(6 of 12, table);
-   @media #{$brk-narrow} {
+  @include span-columns(6 of 12, table);
+  @media #{$brk-narrow} {
     @include span-columns(12 of 12);
   }
-
 }
 
 .box1 {
-   @include span-columns(6 of 12, table);
-   @media #{$brk-narrow} {
+  @include span-columns(6 of 12, table);
+  @media #{$brk-narrow} {
     @include span-columns(12 of 12);
   }
 }
@@ -183,7 +177,6 @@ p {
 .box2 {
   @include span-columns(12);
   overflow: hidden;
-
 }
 
 .FIX {
@@ -204,8 +197,8 @@ footer {
   text-align: center;
 
   @media (max-width: 768px) {
-      margin-top: 160px;
-    }
+    margin-top: 160px;
+  }
 
   a {
     margin: 80px;
@@ -232,67 +225,67 @@ footer {
   }
 
   div {
-
     margin: 40px;
     margin-top: 12%;
   }
 
-
-@keyframes bounce {
-  0%, 100%, 20%, 50%, 80% {
-    -webkit-transform: translateY(0);
-    -ms-transform:     translateY(0);
-    transform:         translateY(0)
+  @keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -webkit-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
   }
-  40% {
-    -webkit-transform: translateY(-30px);
-    -ms-transform:     translateY(-30px);
-    transform:         translateY(-30px)
+
+  img {
+    position: relative;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    color: white;
   }
-  60% {
-    -webkit-transform: translateY(-15px);
-    -ms-transform:     translateY(-15px);
-    transform:         translateY(-15px)
+
+  img:hover {
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
   }
 }
-
-img {
-  position: relative;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-  color: white;
-}
-
-img:hover {
-  cursor: pointer;
-  animation-name: bounce;
-  -moz-animation-name: bounce;
-}
-
-}
-
 
 button.accordion {
-    display: inline-block;
-    font-size: 50px;
-    background-color: black;
-    padding-bottom: 0px;
-    color: $color-pink;
-    transition: .2s ease;
-    font-weight: bold;
-    outline: none;
-    border: none;
+  display: inline-block;
+  font-size: 50px;
+  background-color: black;
+  padding-bottom: 0px;
+  color: $color-pink;
+  transition: 0.2s ease;
+  font-weight: bold;
+  outline: none;
+  border: none;
 
-    @media #{$brk-narrow} {
-       font-size: 30px;
-       margin-left: -80px;
-    }
+  @media #{$brk-narrow} {
+    font-size: 30px;
+    margin-left: -80px;
+  }
 
   @media #{$brk-small} {
     font-size: 30px;
@@ -301,28 +294,29 @@ button.accordion {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
-    color: $color-pink;
-    outline: none;
-    border: none;
-    background-color:  black;
+button.accordion.active,
+button.accordion:hover {
+  color: $color-pink;
+  outline: none;
+  border: none;
+  background-color: black;
 }
 button:focus {
-    background-color: black;
+  background-color: black;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
-    padding: 0px;
-    margin-bottom: 0px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 1s ease-out;
-    line-height: 300%;
-    font-size: 20px;
-    background-color: $color-pink;
+  padding: 0px;
+  margin-bottom: 0px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+  line-height: 300%;
+  font-size: 20px;
+  background-color: $color-pink;
 
-    @media #{$brk-narrow} {
+  @media #{$brk-narrow} {
     font-size: 16px;
     line-height: 200%;
   }
