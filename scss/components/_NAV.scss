@@ -32,14 +32,14 @@
 }
 
 .NAV {
-  height: 50px;
+  height: 0px;
   position: fixed;
 }
 
 #NAVMENU {
   @include span-columns(12);
+  height: 100vh;
   position: absolute;
-  top: 50px;
   left: 0;
   text-align: center;
   background-color: black;
@@ -57,6 +57,7 @@
 #NAVMENU .nav-mobile-wrap {
   height: calc(100vh - 50px);
   padding: 80px 0;
+  margin-top: 100px;
 }
 
 .NAV_ITEMS {

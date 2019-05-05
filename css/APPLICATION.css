@@ -884,7 +884,7 @@ html {
   margin-top: 1%;
   position: absolute;
   text-align: center;
-  padding-top: 120px; }
+  padding-top: 110px; }
   @media (max-width: 1400px) {
     #LIST_WRAP {
       padding-top: 20px; } }
@@ -897,7 +897,7 @@ html {
 
 .CURSR,
 .CURSR0 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: courier;
   color: black; }
   @media (max-width: 550px) {
@@ -934,6 +934,9 @@ hr {
   padding: 1px;
   background-color: #f5b1a8; }
 
+.title {
+  padding: 0px 50px; }
+
 .title,
 .work_title {
   float: left;
@@ -958,10 +961,7 @@ hr {
       font-size: 20px;
       margin: 0px;
       line-height: 50px;
-      padding: 30px 0px; } }
-
-.title {
-  padding: 0px 50px; }
+      padding: 50px 0px; } }
 
 .work_title {
   color: #f5b1a8; }
@@ -1214,7 +1214,6 @@ div.panel {
   margin-left: 50px;
   width: 60px;
   height: 60px;
-  transition: all .5s ease-in-out;
   z-index: 890000; }
   @media (max-width: 768px) {
     .arrow {
@@ -1259,7 +1258,7 @@ div.panel {
   -webkit-transition: width 0.6s ease; }
 
 .NAV {
-  height: 50px;
+  height: 0px;
   position: fixed; }
 
 #NAVMENU {
@@ -1267,8 +1266,8 @@ div.panel {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
+  height: 100vh;
   position: absolute;
-  top: 50px;
   left: 0;
   text-align: center;
   background-color: black;
@@ -1285,7 +1284,8 @@ div.panel {
 
 #NAVMENU .nav-mobile-wrap {
   height: calc(100vh - 50px);
-  padding: 80px 0; }
+  padding: 80px 0;
+  margin-top: 100px; }
 
 .NAV_ITEMS {
   float: none;
