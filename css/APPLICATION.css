@@ -881,7 +881,7 @@ html {
 #LIST_WRAP {
   width: 100%;
   margin: auto;
-  margin-top: 1%;
+  margin-top: 10%;
   position: absolute;
   text-align: center;
   padding-top: 110px; }
@@ -897,7 +897,7 @@ html {
 
 .CURSR,
 .CURSR0 {
-  font-size: 30px;
+  font-size: 35px;
   font-family: courier;
   color: black; }
   @media (max-width: 550px) {
